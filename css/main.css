@@ -96,6 +96,7 @@ blockquote::after {
 
 .contact__copymail {
     float: right;
+    margin-left: 10px;
 }
 .contact__copymail:hover {
     cursor: pointer;
