@@ -1,0 +1,125 @@
+:root {
+    --header-text-color: #fff;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navigation {
+    color: var(--header-text-color);
+    background-color: #030E27;
+    padding: 20px;
+}
+
+.navbar__logo {
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+blockquote {
+    quotes: "«\00A0" "\00A0»";
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+/* Sur les grands écrans, on limite la largeur du contenu */
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+    .main__email {
+        margin-left: 200px!important;
+        margin-right: 200px!important;
+    }
+}
+
+.header {
+    height: 500px;
+    color: var(--header-text-color);
+    background-color: #030E27;
+}
+
+.header__content {
+    display: flex;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 250px;
+}
+
+.contact__content {
+   padding: 20px;
+}
+
+.main__title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact__description {
+    text-align: center;
+}
+
+.contact__email {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: #030E27;
+    color: var(--header-text-color);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact__copymail {
+    float: right;
+}
+.contact__copymail:hover {
+    cursor: pointer;
+}
+
+.testimonial {
+    height: 500px;
+}
+
+.testimonial__content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+    font-weight: thin;
+}
+
+.author {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.author a {
+    color: #030E27;
+    text-decoration: underline;
+}
+
